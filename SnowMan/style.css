@@ -10,9 +10,13 @@ html, body {
 
   background:#22788c;
 }
+main{
+  margin:10px;
+  max-width: calc(100% - 20px);
+}
 canvas {
   display: block;
-  max-width: calc(100% - 20px);
+  max-width:100%;
   height: auto !important;
   border-radius:2ch;
 }
